@@ -1,0 +1,20 @@
+{
+  "name": "typescriptpdx_blog",
+  "version": "1.0.0",
+  "description": "An npm Package for Node.js to get the metadata about the latest articles on the TypeScriptPDX blog.",
+  "main": "lib/blog.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "mocha"
+  },
+  "author": "Andrew Chalkley <andrew@chalkley.org>",
+  "license": "ISC",
+  "dependencies": {
+    "libxmljs": "^0.14.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "nock": "^2.10.0"
+  }
+}
