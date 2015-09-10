@@ -4,7 +4,7 @@
   "description": "An npm Package for Node.js to get the metadata about the latest articles on the TypeScriptPDX blog.",
   "main": "lib/blog.js",
   "scripts": {
-    "pretest": "tsc",
+    "pretest": "tsd update && tsc",
     "test": "mocha"
   },
   "author": "Andrew Chalkley <andrew@chalkley.org>",
