@@ -8,7 +8,7 @@
     "test": "mocha"
   },
   "author": "Andrew Chalkley <andrew@chalkley.org>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "libxmljs": "^0.14.3"
   },
